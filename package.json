@@ -1,0 +1,52 @@
+{
+    "author": "Pebble",
+    "dependencies": {},
+    "keywords": [],
+    "name": "cleo",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Cleopatra",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/perfect-dos-vga-24.ttf",
+                    "name": "FONT_PERFECT_DOS_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga-12.ttf",
+                    "name": "FONT_PERFECT_DOS_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/cleopatra_168x168.png",
+                    "name": "IMAGE_CLEO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "67ed6881-a20d-4872-9c6a-f50f69b4f55d",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
